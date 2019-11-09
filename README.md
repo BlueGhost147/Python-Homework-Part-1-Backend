@@ -30,6 +30,12 @@ INSTALLED_APPS = [
 ]
 ````
 
+Migrate the model changed to the db
+````bash
+python manage.py makemigrations
+python manage.py migrate
+````
+
 Run the server
 ````bash
 python manage.py runserver
