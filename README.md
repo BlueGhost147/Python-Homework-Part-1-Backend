@@ -11,9 +11,8 @@
 * A working django project
 
 ## Setup
-Clone the git repository in the project folder
+Clone the git repository and copy the app in the project folder
 ````bash
-cd <Project_Folder>
 git clone <RepositoryLink>
 ````
 
@@ -34,4 +33,11 @@ INSTALLED_APPS = [
 Run the server
 ````bash
 python manage.py runserver
+````
+
+### Troubleshooting
+If django throws the error 'No such table'
+See: https://stackoverflow.com/questions/12784835/django-no-such-table
+````bash
+python manage.py migrate --run-syncdb
 ````
