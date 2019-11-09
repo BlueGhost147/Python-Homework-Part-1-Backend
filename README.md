@@ -6,9 +6,9 @@
 * Topic: Foodproducts
 
 ## Requirments
-*python 3.8.0 with pip installed
-*A Virtual Environment with Django 2.2.7
-*A working django project
+* python 3.8.0 with pip installed
+* A Virtual Environment with Django 2.2.7
+* A working django project
 
 ## Setup
 Clone the git repository in the project folder
